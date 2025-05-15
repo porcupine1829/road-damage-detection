@@ -1,0 +1,12 @@
+# Road Damage Detection Dataset (RDD2022)
+
+path: ../data/RDD-2022  # This path will be updated by the dataset_preparation.py script
+train: train/images
+val: test/images
+
+# Classes
+names:
+  0: D00  # Longitudinal cracks
+  1: D10  # Transverse cracks
+  2: D20  # Alligator cracks
+  3: D40  # Potholes
